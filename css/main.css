@@ -118,6 +118,10 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s;
 }
+.nav-item:nth-child(5) {
+  transition-delay: 0.4s;
+}
+
 
 * {
   box-sizing: border-box;
@@ -147,6 +151,11 @@ body#bg-img:after {
   height: 100%;
   z-index: -1;
   background: rgba(68, 68, 68, 0.9);
+}
+/* Resume image */
+.resume img{
+width: 70%;
+margin-left: 140px;
 }
 
 h1, h2, h3 {
@@ -320,6 +329,9 @@ main#home h1 {
   color: #fff;
   height: 60px;
 }
+
+
+/* Media query starts */
 
 @media screen and (min-width: 1171px) {
   .projects {
